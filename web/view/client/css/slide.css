@@ -1,0 +1,9 @@
+.mySlide{
+    width: 700px;
+    height: 350px;
+    margin: auto;
+}
+
+.mySlide img{
+    width: 700px;
+}

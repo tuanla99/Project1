@@ -1,0 +1,32 @@
+.gioHang{
+    width: 70%;
+    margin-left: 10%;
+    margin-top:5%;
+    background-color: #ecf0f1;
+    display: flex;
+    font-family: segoe ui;
+    border-radius: 5px;
+}
+.gioHang .img{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.gioHang .img img{
+    width: 100px;
+    height: 130px;
+}
+.gioHang .name{
+    width: 400px;
+    margin-top: 20px;
+}
+.gioHang .tongTien{
+    width: 300px;
+    margin-top:20px;
+}
+.gioHang .tongTien .tamTinh{
+    display: flex;
+}
+

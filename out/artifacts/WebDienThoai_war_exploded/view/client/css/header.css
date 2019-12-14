@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {}
+.header .logo a {}
+
+.header .menu {
+    background-color: #ecf0f1;
+    font-family: Segoe UI;
+    font-size: 20px;
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+.header .menu .tim_kiem{
+    height: 100px;
+    width: 190px;
+    padding-left: 20px;
+    position: relative;
+}
+.header .menu .tim_kiem h3{ font-size: 15px;}
+    .header .menu .tim_kiem .tim_kiem_byName{ width: 150px; height: 20px;}
+        .header .menu .tim_kiem .submit{ height: 25px;}
+
+.header .menu .danh_sach{
+    width: 100%;
+    height: 100px;
+    
+}
+.header .menu .danh_sach ._1{
+    
+    height: 100px;
+    display: flex;
+    
+}
+.header .menu .danh_sach ul li{
+    list-style: none;
+    margin: auto;
+    position: relative;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 30px;
+}
+.header .menu .danh_sach ul li a{
+    text-decoration: none;
+    color: #e74c3c;
+}
+
+.header .menu .danh_sach ul li .sub-menu {
+    display: none;
+    position: absolute;
+    transition: 0.5s;
+}
+.header .menu .danh_sach ul li .sub-menu li {
+    font-size: 17px;
+    
+}
+.header .menu .danh_sach ul li:hover .sub-menu {
+    display: block;
+    
+}

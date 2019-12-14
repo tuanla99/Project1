@@ -1,0 +1,43 @@
+.line-content {
+    width: 90%;
+    background: #7ed6df;
+    height: 20px;
+    margin: auto;
+}
+
+.content-product {
+    width: 100%;
+    
+
+}
+
+.content-product .content-product-phan {
+    padding-left: 100px;
+    padding-right: 30px;
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-product .content-product-1 {
+    padding-top: 10px;
+    width: 25%;
+    height: 350px;
+    margin: auto;
+}
+
+.content-product .content-product-1 img {
+    width: 200px;
+    height: 200px;
+}
+
+.content-product .content-product-1 p {
+    font-family: Segoe UI;
+    color: #eb4d4b;
+}
+
+.content-product .content-product-1 a {
+    text-decoration: none;
+}

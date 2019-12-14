@@ -1,0 +1,56 @@
+.detail_product {
+    margin: 5%;
+    width: 90%;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    display: flex;
+    font-family: segoe ui;
+}
+
+.detail_product .cot1_img {
+    width: 400px;
+    height: 530px;
+}
+
+.detail_product .cot1_img>img {
+    width: 230px;
+    height: 350px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.detail_product .cot2 {
+    width: 400px;
+    margin-top: 50px;
+    font-family: segoe ui;
+    font-size: 15px;
+    font-style: unset;
+}
+
+.detail_product .cot2 .cot2_gia {
+    display: flex;
+
+}
+
+.detail_product .cot2 .cot2_gia .gia {
+    width: 150px;
+    height: 40px;
+    background-color: #95a5a6;
+    margin-right: 20px;
+}
+.detail_product .cot2 .cot2_gia .gia>p {
+}
+.detail_product .cot2 .khuyenMai {
+    margin-top: 20px;
+}
+
+.detail_product .cot2 .khuyenMai li {
+    padding-top: 20px;
+}
+.detail_product .cot3 {
+    margin-top: 50px;
+}
+
+.detail_product .cot3 li{
+    padding-top: 20px;
+}
