@@ -14,19 +14,15 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet(urlPatterns = "/list-product")
+@WebServlet(urlPatterns = "/listProduct")
 public class ListProductController extends HttpServlet {
     ProductService productService = new ProductService();
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         List<Product> products = new ArrayList<>();
-        try {
-            products = productService.getAll();
-            req.setAttribute("products",products);
-            RequestDispatcher dispatcher = req.getRequestDispatcher("/view/client/list-product.jsp");
-            dispatcher.forward(req,resp);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        products = productService.getAll();
+        req.setAttribute("products",products);
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/view/client/list-product.jsp");
+        dispatcher.forward(req,resp);
     }
 }

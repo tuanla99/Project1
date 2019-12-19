@@ -48,20 +48,16 @@ public class RegisterController extends HttpServlet {
         UserService userService = new UserService();
         String alertMsg="";
 
-        try {
-            if (!userService.checkExistEmail_Sdt(email,soDT)){
-                alertMsg ="Email hoặc số điện thoại đã được sử dụng. Hãy sử dụng email hoặc số khác";
-                req.setAttribute("alert", alertMsg);
-                req.getRequestDispatcher("/view/client/view/register.jsp").forward(req, resp);
-            }else {
-                userService.register(tenKH,email,soDT,password,diaChi,Integer.parseInt(roleId));
-                alertMsg="Đăng ký thành công!";
-                req.setAttribute("alert", alertMsg);
-                RequestDispatcher dispatcher = req.getRequestDispatcher("/view/client/login.jsp");
-                dispatcher.forward(req,resp);
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
+        if (!userService.checkExistEmail_Sdt(email,soDT)){
+            alertMsg ="Email hoặc số điện thoại đã được sử dụng. Hãy sử dụng email hoặc số khác";
+            req.setAttribute("alert", alertMsg);
+            req.getRequestDispatcher("/view/client/view/register.jsp").forward(req, resp);
+        }else {
+            userService.register(tenKH,email,soDT,password,diaChi,Integer.parseInt(roleId));
+            alertMsg="Đăng ký thành công!";
+            req.setAttribute("alert", alertMsg);
+            RequestDispatcher dispatcher = req.getRequestDispatcher("/view/client/login.jsp");
+            dispatcher.forward(req,resp);
         }
 
     }

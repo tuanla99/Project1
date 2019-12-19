@@ -14,12 +14,12 @@ public class LogoutController extends HttpServlet {
         session.removeAttribute("account");
         Cookie cookies [] = req.getCookies();
         for (Cookie cookie: cookies){
-            if (cookie.getName().equals("tenKH")){
+            if (cookie.getName().equals("soDT")){
                 cookie.setMaxAge(0);
                 resp.addCookie(cookie);
                 break;
             }
         }
-        resp.sendRedirect("./login");
+        resp.sendRedirect(req.getContextPath()+"/welcome");
     }
 }

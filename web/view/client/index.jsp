@@ -1,6 +1,8 @@
 <%@ page import="servise.ProductService" %>
 <%@ page import="java.util.List" %>
-<%@ page import="model.Product" %><%--
+<%@ page import="model.Product" %>
+<%@ page import="java.sql.SQLException" %>
+<%@ page import="java.util.ArrayList" %><%--
   Created by IntelliJ IDEA.
   User: luong
   Date: 12/2/2019
@@ -61,10 +63,17 @@
     if (request.getParameter("pages") != null) {
         pages = Integer.parseInt(request.getParameter("pages"));
     }
-    int begin = (pages - 1) * 8; // Mỗi mục hiển thị 8 sản phẩm.
-    int end = pages * 8;
-    List<Product> products = productService.getAll(begin, end);
-    List<Product> products1 = productService.getAll();
+    int begin = 0; // Mỗi mục hiển thị 8 sản phẩm.
+    begin = (pages - 1) * 8;
+    int end = 8;
+    end = pages * 8;
+    List<Product> products1 = new ArrayList<>();
+    products1 = productService.getAll();
+    List<Product> products = new ArrayList<>();
+    for (int i=begin;i<end;i++){
+        Product product = products1.get(i);
+        products.add(product);
+    }
     int total = products1.size();
     int numOfPage;
     if (total % 8 == 0) {
@@ -140,7 +149,8 @@
             </ul>
         </div>
     </div>
-
+<%
+%>
     <div class="line-content"></div>
 
     <div class="san_pham_hot">

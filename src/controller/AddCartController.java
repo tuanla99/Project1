@@ -14,9 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
 
 @WebServlet(urlPatterns = {"/addCart"})
 public class AddCartController extends HttpServlet {
@@ -28,34 +26,31 @@ public class AddCartController extends HttpServlet {
         String maSP = req.getParameter("maSP");
         String soLuong = req.getParameter("soLuong");
         HttpSession session = req.getSession();
-        List<CartItem> cart =(ArrayList<CartItem>) session.getAttribute("cartItem");
-
+       // List<CartItem> cart =(ArrayList<CartItem>) session.getAttribute("cartItem");
+        Object o = session.getAttribute("cart");
         Product product = productService.getProduct(Integer.parseInt(maSP));
         CartItem cartItem = new CartItem();
         cartItem.setGia(product.getGia());
         cartItem.setProduct(product);
         cartItem.setSoLuong(Integer.parseInt(soLuong));
-        List<CartItem> cartItems = new ArrayList<>();
-        if (!cart.isEmpty() ){
-            int tmp = 0; // Kiem tra xem san pham da trong gio hang hay chua?
-            for (CartItem item : cart){
-                if (item.getProduct().getMaSP() == Integer.parseInt(maSP) ){ // neu san pham da co trong cart thi cong so luong them 1
-                    item.setSoLuong(item.getSoLuong()+1);
-                    session.setAttribute("card",cart); // them vao session
-                    tmp =1;
-                    break;
-                }
+
+        if (o != null ){
+            Map<Integer,CartItem> cart = (Map<Integer, CartItem>) o;
+            // Kiem tra xem san pham da trong gio hang hay chua?
+           CartItem existedCartItem = cart.get(Integer.parseInt(maSP));
+            if (existedCartItem == null){
+                cart.put(product.getMaSP(),cartItem);
+            }else {
+                existedCartItem.setSoLuong(existedCartItem.getSoLuong() + Integer.parseInt(soLuong));
             }
-            if (tmp==0){
-                cart.add(cartItem);
-                session.setAttribute("card",cart); // them vao session
-            }
+            session.setAttribute("cart",cart);
         }else {
-            cart.add(cartItem);
-            session.setAttribute("card",cart); // them vao session
+           Map<Integer,CartItem> cart = new HashMap<>();
+            cart.put(product.getMaSP(),cartItem);
+            session.setAttribute("cart",cart);
         }
 
 
-        resp.sendRedirect(req.getContextPath()+"/cart");
+        resp.sendRedirect(req.getContextPath()+"/list-product");
     }
 }

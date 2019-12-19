@@ -1,6 +1,8 @@
 giỏ hàng: thêm vào session, khi khách hàng thanh toán thêm vào database.
 +
 
-+ Form  : Chọn màu sắc
++ Cart  : Chọn màu sắc
         : Nhập số lương
---> Vấn đề là giỏ hàng nhiều sản phẩm, nhiều form khi submit ???
+--> Vấn đề :
+- 1 sản phẩm thì chỉ có một màu vậy chọn màu khác thì thay đổi sản phẩm ???
+   -> Giải quyết, tạm thời bỏ qua chức năng Chọn màu sắc.

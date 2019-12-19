@@ -19,13 +19,14 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.45" level="application_server_libraries" />
-    <orderEntry type="library" name="mssql-jdbc-7.4.1.jre8" level="project" />
-    <orderEntry type="library" name="jstl-1.2" level="project" />
-    <orderEntry type="library" name="bootstrap" level="application" />
-    <orderEntry type="library" name="popper" level="application" />
-    <orderEntry type="library" name="jquery-3.3.1.slim" level="application" />
-    <orderEntry type="library" name="commons-fileupload-1.4" level="project" />
-    <orderEntry type="library" name="commons-io-2.6" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="Tomcat 8.5.45" level="application_server_libraries" />
+    <orderEntry type="library" exported="" name="mssql-jdbc-7.4.1.jre8" level="project" />
+    <orderEntry type="library" exported="" name="jstl-1.2" level="project" />
+    <orderEntry type="library" exported="" name="bootstrap" level="application" />
+    <orderEntry type="library" exported="" name="popper" level="application" />
+    <orderEntry type="library" exported="" name="jquery-3.3.1.slim" level="application" />
+    <orderEntry type="library" exported="" name="commons-fileupload-1.4" level="project" />
+    <orderEntry type="library" exported="" name="commons-io-2.6" level="project" />
+    <orderEntry type="library" name="apache-tomcat-8.5" level="project" />
   </component>
 </module>

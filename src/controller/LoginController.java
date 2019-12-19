@@ -28,10 +28,10 @@ public class LoginController extends HttpServlet {
         {
             for (Cookie cookie : cookies)
             {
-                if (cookie.getName().equals("tenKH"))
+                if (cookie.getName().equals("soDT"))
                 {
                     session =req.getSession(true);
-                    session.setAttribute("tenKH",cookie.getValue());
+                    session.setAttribute("soDT",cookie.getValue());
                     resp.sendRedirect(req.getContextPath()+"/waiting");
                     return;
                 }
@@ -45,34 +45,27 @@ public class LoginController extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String soDT = req.getParameter("SoDT");
+        String soDT = req.getParameter("soDT");
         String passWord = req.getParameter("PassWord");
         String alertMsg ="";
         if (soDT.isEmpty() || passWord.isEmpty()){
-            alertMsg ="số điện thoại và password không thể để trống! Xin nhập lại.";
+            alertMsg ="Số điện thoại và password không thể để trống! Xin nhập lại.";
             req.setAttribute("alertMsg",alertMsg);
             req.getRequestDispatcher("view/client/view/login.jsp").forward(req, resp);
             return;
         }
 
         UserService userService = new UserService();
-        try {
-            User  user = userService.login(soDT,passWord);
-            if (user!=null){
-                HttpSession session = req.getSession(true);
-                session.setAttribute("account",user);
-                resp.sendRedirect(req.getContextPath()+"/waiting");
-            }else{
-                alertMsg="tài khoản hoặc mật khẩu không đúng, hãy nhập lại.";
-                req.setAttribute("alertMsg",alertMsg);
-                req.getRequestDispatcher("view/client/view/login.jsp").forward(req, resp);
-
-            }
-        } catch (SQLException e) {
+        User  user = userService.login(soDT,passWord);
+        if (user!=null){
+            HttpSession session = req.getSession(true);
+            session.setAttribute("account",user);
+            resp.sendRedirect(req.getContextPath()+"/waiting");
+        }else{
+            alertMsg="tài khoản hoặc mật khẩu không đúng, hãy nhập lại.";
             req.setAttribute("alertMsg",alertMsg);
-            alertMsg="Đã xảy ra lỗi hệ thống, xin mời đăng nhập lại!";
             req.getRequestDispatcher("view/client/view/login.jsp").forward(req, resp);
-            e.printStackTrace();
+
         }
 
 

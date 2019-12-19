@@ -13,19 +13,15 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
-@WebServlet(name = "welcome",urlPatterns = "/welcome",loadOnStartup = 1)
+@WebServlet(name = "welcome",urlPatterns = "/welcome")
 public class Welcome extends HttpServlet {
     private ProductService productService = new ProductService();
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        try {
-            List<Product> list = productService.getAll();
-            req.setAttribute("pwelcome",list);
-            RequestDispatcher dispatcher= req.getRequestDispatcher("/view/client/index.jsp") ;
-            dispatcher.forward(req,resp);
+        List<Product> list = productService.getAll();
+        req.setAttribute("pwelcome",list);
+        RequestDispatcher dispatcher= req.getRequestDispatcher("/view/client/index.jsp") ;
+        dispatcher.forward(req,resp);
 
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
     }
 }

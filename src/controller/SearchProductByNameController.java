@@ -19,14 +19,10 @@ public class SearchProductByNameController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String name = req.getParameter("name");
-        try {
-            List<Product> products = productService.searchProductByName(name);
-            req.setAttribute("productByName",products);
-            RequestDispatcher dispatcher = req.getRequestDispatcher("/view/client/search-ProductByName.jsp");
+        List<Product> products = productService.searchProductByName(name);
+        req.setAttribute("productByName",products);
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/view/client/search-ProductByName.jsp");
 
-            dispatcher.forward(req,resp);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        dispatcher.forward(req,resp);
     }
 }

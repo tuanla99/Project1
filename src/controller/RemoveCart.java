@@ -22,14 +22,10 @@ public class RemoveCart extends HttpServlet {
         HttpSession session = req.getSession();
         List<CartItem> cartItems = (List<CartItem>) session.getAttribute("cartItem");
         String id = req.getParameter("id");
-        try {
-            CartItem cartItem = cartItemService.get(id);
+        CartItem cartItem = cartItemService.get(Integer.parseInt(id));
 
-            cartItems.remove(cartItem);
-            session.setAttribute("cartItem",cartItems);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        cartItems.remove(cartItem);
+        session.setAttribute("cartItem",cartItems);
         resp.sendRedirect(req.getContextPath()+"/cart");
     }
 }

@@ -2,11 +2,99 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="WebDienThoai:war exploded" />
+      <artifact name="WebDienThoai" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b692116c-7833-451b-90c0-b5f4235c8167" name="Default Changelist" comment="" />
+    <list default="true" id="b692116c-7833-451b-90c0-b5f4235c8167" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_tomcat_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/view/admin/add-product.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/view/admin/edit-product.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/view/client/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/view/client/form-login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/view/client/form-register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/view/client/my-account.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/WebDienThoai_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/WebDienThoai.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/950789ff-d08f-4b48-ba50-c73efa6a2a9b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/950789ff-d08f-4b48-ba50-c73efa6a2a9b/storage_v2/_src_/database/Project1DB.1s5lAQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/950789ff-d08f-4b48-ba50-c73efa6a2a9b/storage_v2/_src_/database/Project1DB.1s5lAQ/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/950789ff-d08f-4b48-ba50-c73efa6a2a9b/storage_v2/_src_/database/Project1DB.1s5lAQ/schema/dbo.sYMBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/950789ff-d08f-4b48-ba50-c73efa6a2a9b/storage_v2/_src_/database/Project1DB.1s5lAQ/schema/dbo.sYMBAA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/950789ff-d08f-4b48-ba50-c73efa6a2a9b/storage_v2/_src_/database/Project1DB.1s5lAQ/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/950789ff-d08f-4b48-ba50-c73efa6a2a9b/storage_v2/_src_/database/ch3b1._SijBQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/950789ff-d08f-4b48-ba50-c73efa6a2a9b/storage_v2/_src_/database/ch3b1._SijBQ/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/950789ff-d08f-4b48-ba50-c73efa6a2a9b/storage_v2/_src_/database/ch3b1._SijBQ/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebDienThoai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WebDienThoai.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/META-INF/WebDienThoai.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/META-INF/WebDienThoai.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/connection/ConnectionDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/connection/ConnectionDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/controller/WaitingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/controller/WaitingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/controller/Welcome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/controller/Welcome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/database/AdminDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/database/AdminDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/database/ProductDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/database/ProductDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/database/UserDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/database/UserDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/model/IProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/model/IProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/servise/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/servise/AdminService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/servise/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/servise/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/servise/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/WEB-INF/classes/servise/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/view/client/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/view/client/css/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/view/client/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/view/client/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/view/client/css/slide.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/view/client/css/slide.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/view/client/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/view/client/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/view/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/view/client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/view/client/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded/view/client/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/connection/ConnectionDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/connection/ConnectionDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/controller/AddCartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/controller/AddCartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/controller/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/controller/LogoutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/controller/LogoutController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/controller/SearchProductByNSX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/controller/WaitingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/controller/WaitingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/controller/Welcome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/controller/Welcome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/controller/test$1test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/controller/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/database/AdminDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/database/AdminDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/database/CartDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/database/CartDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/database/CartItemDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/database/CartItemDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/database/ProductDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/database/ProductDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/database/UserDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/database/UserDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/model/ICart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/model/ICart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/model/ICartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/model/ICartItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/model/IProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/model/IProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/servise/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/servise/AdminService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/servise/CartItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/servise/CartItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/servise/CartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/servise/CartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/servise/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/servise/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebDienThoai/servise/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebDienThoai/servise/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HuongDan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/HuongDan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/connection/ConnectionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/connection/ConnectionDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/AddCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AddCartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Admin/ProductEditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Admin/ProductEditController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ListProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ListProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/LogoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LogoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/MyAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MyAccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/RemoveCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/RemoveCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/SearchProductByNSXController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/SearchProductByNSXController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/SearchProductByNameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/SearchProductByNameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/WaitingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/WaitingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Welcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Welcome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/CartItemDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/CartItemDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/admin/list-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/admin/list-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/client/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/client/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/client/form-register.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/client/form-register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/client/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/client/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/client/my-account.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/client/my-account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/client/product-detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/client/product-detail.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,14 +133,6 @@
         <item name="Project1DB: database" type="ccb7ac2a:MsImplModel$Database" />
         <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Project1DB@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="Project1DB: database" type="ccb7ac2a:MsImplModel$Database" />
-        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Admin: table" type="63ab2ba1:MsImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -101,9 +181,19 @@
       <list>
         <option value="Interface" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Project1\WebDienThoai\.idea" />
+      </set>
     </option>
   </component>
   <component name="LogFilters">
@@ -114,6 +204,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1T1D2pBigA2uj9cVH3TAIS6gzlp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -121,27 +212,41 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlserver" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="D:/TomCat/apache-tomcat-8.5.45-windows-x64/apache-tomcat-8.5.45" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Project1\WebDienThoai\web\view\client" />
-      <recent name="D:\Project1\WebDienThoai\web\view\client\View" />
-      <recent name="D:\Project1\WebDienThoai\web\view\client\view" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Project1\WebDienThoai\web\view\admin" />
       <recent name="D:\Project1\WebDienThoai\web\view\client\view" />
       <recent name="D:\Project1\WebDienThoai\web\view\client\static" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project1\WebDienThoai\web\view\client" />
+      <recent name="D:\Project1\WebDienThoai\web\view\client\View" />
+      <recent name="D:\Project1\WebDienThoai\web\view\client\view" />
+    </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.45">
+    <configuration name="ConnectionDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="connection.ConnectionDB" />
+      <module name="WebDienThoai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="connection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="controller.test" />
       <module name="WebDienThoai" />
@@ -166,7 +271,7 @@
     </configuration>
     <configuration name="Tomcat 8.5.45" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.45" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
-        <artifact name="WebDienThoai:war exploded">
+        <artifact name="WebDienThoai">
           <settings>
             <option name="CONTEXT_PATH" value="/WebDienThoai_war_exploded" />
           </settings>
@@ -231,64 +336,25 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="WebDienThoai:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="header.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.45" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/view/client/view/header.jsp" />
-      <deployment>
-        <artifact name="WebDienThoai:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/WebDienThoai_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="header_jsp_(1)_WebDienThoai" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="WebDienThoai:war exploded" />
+          <artifact name="WebDienThoai" />
         </option>
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.test" />
+      <item itemvalue="Application.ConnectionDB" />
       <item itemvalue="JavaScript Debug.header.jsp" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.searchProductByNSX.jsp" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.45" />
-      <item itemvalue="Tomcat Server.header.jsp (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConnectionDB" />
         <item itemvalue="Application.test" />
         <item itemvalue="JavaScript Debug.searchProductByNSX.jsp" />
         <item itemvalue="JavaScript Debug.header.jsp" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Tomcat Server.header.jsp (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +366,7 @@
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:Project1DB@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -361,7 +427,14 @@
       <workItem from="1576253548482" duration="7140000" />
       <workItem from="1576262768529" duration="721000" />
       <workItem from="1576263503711" duration="1110000" />
-      <workItem from="1576307811009" duration="9121000" />
+      <workItem from="1576307811009" duration="10890000" />
+      <workItem from="1576380215641" duration="3596000" />
+      <workItem from="1576415260212" duration="2383000" />
+      <workItem from="1576503005437" duration="11689000" />
+      <workItem from="1576552517498" duration="705000" />
+      <workItem from="1576640672279" duration="4090000" />
+      <workItem from="1576744953209" duration="8541000" />
+      <workItem from="1576756808584" duration="89000" />
     </task>
     <servers />
   </component>
@@ -385,38 +458,78 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="488" y="67" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1576314403963" />
-    <state x="363" y="111" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575124382002">
+    <state x="534" y="100" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1576749176401">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="363" y="111" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.768@0.0.1366.768" timestamp="1575124382002" />
-    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1576312944279">
+    <state x="534" y="100" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1366.768@0.0.1366.768" timestamp="1576749176401" />
+    <state x="363" y="111" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576756265919">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1576312944279" />
-    <state width="936" height="105" key="GridCell.Tab.0.bottom" timestamp="1576263562557">
+    <state x="363" y="111" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.768@0.0.1366.768" timestamp="1576756265919" />
+    <state x="458" y="101" key="DetectedRootsChooserDialog" timestamp="1576754988117">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="936" height="105" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576263562557" />
-    <state width="936" height="105" key="GridCell.Tab.0.center" timestamp="1576263562557">
+    <state x="458" y="101" key="DetectedRootsChooserDialog/0.0.1366.768@0.0.1366.768" timestamp="1576754988117" />
+    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1576754986991">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="936" height="105" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1576263562557" />
-    <state width="936" height="105" key="GridCell.Tab.0.left" timestamp="1576263562556">
+    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1576754986991" />
+    <state width="936" height="289" key="GridCell.Tab.0.bottom" timestamp="1576756155414">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="936" height="105" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1576263562556" />
-    <state width="936" height="105" key="GridCell.Tab.0.right" timestamp="1576263562557">
+    <state width="936" height="289" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576756155414" />
+    <state width="936" height="289" key="GridCell.Tab.0.center" timestamp="1576756155413">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="936" height="105" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1576263562557" />
+    <state width="936" height="289" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1576756155413" />
+    <state width="936" height="289" key="GridCell.Tab.0.left" timestamp="1576756155413">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="936" height="289" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1576756155413" />
+    <state width="936" height="289" key="GridCell.Tab.0.right" timestamp="1576756155413">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="936" height="289" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1576756155413" />
+    <state width="936" height="289" key="GridCell.Tab.1.bottom" timestamp="1576756155249">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="936" height="289" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576756155249" />
+    <state width="936" height="289" key="GridCell.Tab.1.center" timestamp="1576756155249">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="936" height="289" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1576756155249" />
+    <state width="936" height="289" key="GridCell.Tab.1.left" timestamp="1576756155249">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="936" height="289" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1576756155249" />
+    <state width="936" height="289" key="GridCell.Tab.1.right" timestamp="1576756155249">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="936" height="289" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1576756155249" />
+    <state width="936" height="289" key="GridCell.Tab.2.bottom" timestamp="1576756155250">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="936" height="289" key="GridCell.Tab.2.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576756155250" />
+    <state width="936" height="289" key="GridCell.Tab.2.center" timestamp="1576756155250">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="936" height="289" key="GridCell.Tab.2.center/0.0.1366.768@0.0.1366.768" timestamp="1576756155250" />
+    <state width="936" height="289" key="GridCell.Tab.2.left" timestamp="1576756155250">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="936" height="289" key="GridCell.Tab.2.left/0.0.1366.768@0.0.1366.768" timestamp="1576756155250" />
+    <state width="936" height="289" key="GridCell.Tab.2.right" timestamp="1576756155250">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="936" height="289" key="GridCell.Tab.2.right/0.0.1366.768@0.0.1366.768" timestamp="1576756155250" />
     <state width="236" height="457" key="HiddenNamespacesPopup" timestamp="1575194745352">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="236" height="457" key="HiddenNamespacesPopup/0.0.1366.768@0.0.1366.768" timestamp="1575194745352" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1576312947798">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1576755151009">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1576312947798" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1576755151009" />
     <state x="554" y="242" width="326" height="283" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1576262966694">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -429,13 +542,21 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="136" y="141" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1576313097814" />
-    <state x="379" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1575885356862">
+    <state x="379" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1576763746108">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="206" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1575885356862" />
+    <state x="379" y="206" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1576763746108" />
     <state x="0" y="0" width="607" height="768" key="find.popup" timestamp="1576258036740">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="0" y="0" width="607" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1576258036740" />
+    <state x="65" y="0" key="new project wizard" timestamp="1576752281652">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1576752281652" />
+    <state x="339" y="172" key="run.anything.popup" timestamp="1576754731727">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1576754731727" />
   </component>
 </project>

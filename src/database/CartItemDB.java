@@ -90,7 +90,7 @@ public class CartItemDB implements ICartItem {
                 product=productService.getProduct(resultSet.getInt("MaSP"));
 
                 Cart cart = new Cart();
-                cart= cartService.get(resultSet.getString("CART.CartID"));
+                cart= cartService.get(resultSet.getInt("CART.CartID"));
 
                 cartItem.setProduct(product);
                 cartItem.setCart(cart);
@@ -123,7 +123,7 @@ public class CartItemDB implements ICartItem {
                 product=productService.getProduct(resultSet.getInt("MaSP"));
 
                 Cart cart = new Cart();
-                cart= cartService.get(resultSet.getString("CART.CartID"));
+                cart= cartService.get(resultSet.getInt("CART.CartID"));
 
                 cartItem.setProduct(product);
                 cartItem.setCart(cart);

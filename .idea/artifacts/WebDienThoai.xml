@@ -1,11 +1,12 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="WebDienThoai:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/WebDienThoai_war_exploded</output-path>
+  <artifact type="exploded-war" name="WebDienThoai">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebDienThoai</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="WebDienThoai/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="WebDienThoai" />
+          <element id="library" level="project" name="apache-tomcat-8.5" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="jstl-1.2" />

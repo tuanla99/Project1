@@ -15,7 +15,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(urlPatterns = "/admin/product/add")
+@WebServlet(urlPatterns = "/admin/product/edit")
 public class ProductEditController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

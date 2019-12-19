@@ -20,14 +20,10 @@ public class SearchProductByNSXController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String nsx = req.getParameter("nsx");
-        try {
-            List<Product> products = productService.searchProductByNhaXS(nsx);
-            req.setAttribute("productByNSX",products);
-            RequestDispatcher dispatcher = req.getRequestDispatcher("/view/client/searchProductByNSX.html");
+        List<Product> products = productService.searchProductByNhaXS(nsx);
+        req.setAttribute("productByNSX",products);
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/view/client/searchProductByNSX.html");
 
-            dispatcher.forward(req,resp);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        dispatcher.forward(req,resp);
     }
 }
